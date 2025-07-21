@@ -1,0 +1,109 @@
+body {
+    width: 100%;
+}
+
+.oneclass_topicone, .twoclass_content, .img_pillowcase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.twoclass_content {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-top: 1%;
+    margin-left: 0px;
+    /*background-color: rgb(255, 0, 187);*/
+}
+
+.topick_mysection h1 {
+    font-size: 70px;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(41, 39, 42, 0.956);
+    margin-bottom: 0px;
+    padding-left: 6%;
+    margin-right:10px;
+    /*background-color: aquamarine;*/
+ 
+}
+
+.paragr_mysecxtion {
+    width:92%;
+    font-size: 23px;
+    line-height: 1.8;
+    margin-bottom: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(2, 1, 2, 0.832);
+    margin-left:2%;
+   /* background-color: blueviolet;*/
+    padding-left: 5%;
+}
+.link_mysection
+{
+    
+    padding-right: 50%;
+    
+}
+
+.shop-mysection:link, .a1:visited {
+    font-family: sans-serif;
+    width: 100%;
+    font-size: 23px;
+    background-color: rgba(76, 75, 78, 0.25);
+    color: rgb(61, 60, 60);
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 1% 1% 1% 5%;
+  /*  background-color: chartreuse;*/
+    
+}
+
+.shop-mysection:hover, .a1:active {
+    background-color: rgba(67, 65, 68, 0.406);
+   
+}
+
+.img_mysection {
+    position: relative;
+    width: 112%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 0%;
+}
+
+.img_pillowcase {
+    width: 60%;
+    margin-top:3%;
+    margin-left: 0%;
+    padding-left: 0%;
+   /* background-color: blue;*/
+    padding-top: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .oneclass_topicone, .twoclass_content, .img_pillowcase {
+        flex-direction: column;
+    }
+
+    .twoclass_content {
+        width: 100%;
+        padding: 5%;
+        margin: 0;
+    }
+
+    .img_pillowcase {
+        width: 100%;
+        padding-top: 1.5%;
+        padding-left: 0%;
+        padding-top: 0%;
+    }
+}

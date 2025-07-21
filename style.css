@@ -1,0 +1,78 @@
+
+body {
+    background: url("back3.jpg");
+    
+    background-position: top 10% left;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .signup-box {
+    width: 380px;
+    height: 640px;
+    margin: auto;
+    border: 2px solid rgba(255,255, 255, .5);
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  }
+  
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Poppins", sans-serif;
+    
+  }
+  
+  h4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+   
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #5e6362;
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: #49c1a2;
+  }
